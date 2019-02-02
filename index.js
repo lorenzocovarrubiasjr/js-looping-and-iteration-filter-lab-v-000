@@ -2,4 +2,3 @@
 function findMatching(drivers, string) {
   drivers.filter(function (s) {
      return s == string})
-}
