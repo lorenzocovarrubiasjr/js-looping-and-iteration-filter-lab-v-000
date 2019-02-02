@@ -8,5 +8,7 @@ function findMatching(drivers, string) {
 
 
 function fuzzyMatch(drivers, string) {
-
+  const fuzzyStrings = drivers.filter(function (s) {
+    return s.startsWith(string)};
+  })
 }
