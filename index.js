@@ -12,5 +12,4 @@ function fuzzyMatch(drivers, string) {
     return s.startsWith(string)});
 
   return fuzzyStrings;
-  
-  }
+}
