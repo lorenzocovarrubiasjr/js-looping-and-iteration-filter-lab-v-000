@@ -14,4 +14,3 @@ function fuzzyMatch(drivers, string) {
   return fuzzyStrings;
   
   }
-  
