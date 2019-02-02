@@ -14,6 +14,10 @@ function fuzzyMatch(drivers, string) {
   return fuzzyStrings;
 }
 
-function matchName(){
-  
-}
+function matchName(drivers, string){
+    const matchedNames = drivers.filter(function(s) {
+      return s.name === string});
+
+    return matchedNames;
+    }
+
