@@ -20,4 +20,3 @@ function matchName(drivers, string){
 
     return matchedNames;
     }
-
